@@ -1,0 +1,12 @@
+[Unit]
+Description=Saludo con fecha
+
+[Service]
+ExecStart=/home/carlos/Desktop/actividad3/saludo.sh
+Restart=always
+User=carlos
+Group=carlos
+
+[Install]
+WantedBy=default.target
+
